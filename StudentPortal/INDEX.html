@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/Main.css">
+    <link rel="stylesheet" href="Styles/User.css">
+    <link rel="stylesheet" href="Styles/Admin.css">
+    
+</head>
+<body>
+    <div class="MCD">
+        
+        <!--USER SITE >>>-->
+        <div class="MCD_U">
+
+            <!--TOP >>>-->
+            <div class="MCD_UT">
+                <div class="MCD_UT_L">
+
+                    
+                    <!--video_LTR >>>-->
+
+                    <video class="video" autoplay></video>
+                    <canvas 
+                        class="convas"
+                        style="display: none;"
+                        >
+                    </canvas>
+
+                    <img src="" class="User_Img">
+
+                    <p class="R_sign"></p>
+                    
+                </div>
+                <div class="MCD_UT_R">
+                    <!--
+                    <span class="MCD_UT_R_N">STUDENT NAME, </span> <span class="MCD_UT_R_R">REG NO</span> your remaining time.
+                    -->
+                </div>
+                <div class="T_reading">00:00:00</div>
+            </div>
+
+            <!--BOTTOM >>>-->
+            <div class="MCD_UB">
+                <div class="MCD_UB_T">
+                    <!--
+                    <div class="MCD_UB_T_T"> Which of the following is NOT a component of a computer system?</div>
+                    <div class="MCD_UB_T_B">
+
+                        
+                        <div class="OPT"><p class="I_M_Select"></p> <p class="I_A"> Central Processing Unit (CPU)</p></div>
+                        <div class="OPT"><p class="I_M"></p> <p class="II_A">Input Devices</p></div>
+                        <div class="OPT"><p class="I_M"></p> <p class="III_A">Hard Disk Drive (HDD)</p></div>
+                        <div class="OPT"><p class="I_M"></p> <p class="IV_A">Fuel Tank</p></div>
+                        
+                        ******
+
+                        <div class="OPT"><p class="True_M"></p> <p class="True_A">True</p></div>
+                        <div class="OPT"><p class="False_M"></p> <p class="False_A">False</p></div>
+                        
+                        
+                    </div>
+                    -->
+                </div>
+                <div class="MCD_UB_B">
+                    <p class="P_B">Previous</p>
+                    <p class="N_B">Next</p>
+                    <p class="S_B">Submit</p>
+                </div>
+                <div class="MCD_UB_AQ">
+                    <p class="AQ">1</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+        <!--VIEW RESULT >>>-->
+        <div class="VR_D">
+            <div class="VR_DT">
+                <span class="blue_C">yahaya abdullahi</span> your score is <span class="blue_C">10/20</span> view your work below
+            </div>
+            <div class="VR_DB">
+
+                <!--
+                <div class="MCD_UB_T">
+                    
+                    <div class="MCD_UB_T_T"> Q1: Which of the following is NOT a component of a computer system?</div>
+                    <div class="MCD_UB_T_B">
+
+                        
+                        <div class="OPT"><p class="I_M_Select"></p> <p class="I_A"> Central Processing Unit (CPU)</p></div>
+                        <div class="OPT"><p class="I_M_SelectRed"></p> <p class="II_A">Input Devices</p></div>
+                        <div class="OPT"><p class="I_M"></p> <p class="III_A">Hard Disk Drive (HDD)</p></div>
+                        <div class="OPT"><p class="I_M"></p> <p class="IV_A">Fuel Tank</p></div>
+                        
+                        
+                        ******
+
+                        <div class="OPT"><p class="True_M"></p> <p class="True_A">True</p></div>
+                        <div class="OPT"><p class="False_M"></p> <p class="False_A">False</p></div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                -->
+
+                <p class="User_finish">finish</p>
+            </div>
+        </div>
+
+
+        <!--ADMIN SITE >>>-->
+        <div class="MCD_A">
+
+            <div class="logout_B">logout</div>
+
+            <div class="ADD_Q_B">upload new Qeustions</div>
+            <div class="VIEW_Q_B">review Qeustions</div>
+            <div class="VIEW_R_B">performance review</div>
+            <div class="CHANGE_P_B" >change password</div>
+
+
+
+            <div class="ADD_Q_D">
+
+                <div class="ADD_Q_D_T">
+                    <div class="ADD_back_B">x</div>
+                    <div class="ADD_ExamNo"></div>
+                    <div class="Opt_OB_D">
+                        Select 
+                        <p class="AD_I"></p>
+                        <div class="Opt_OB_C">
+                            <p class="Opt_O">Multiple-choice</p>
+                            <p class="Opt_B">Dichotomous</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ADD_Q_D_Q">
+                    <input type="text" class="ADD_Q_D_QI">
+                    <p class="placeholder_Q">Qeustion 1</p>
+                </div>
+
+                <div class="ADD_Q_D_Q_I">
+                    <input type="text" placeholder="Right Answer" class="ADD_Q_D_QI_I">
+                </div>
+
+                <div class="ADD_Q_D_Q_II">
+                    <input type="text" placeholder="Wronge Answer" class="ADD_Q_D_QI_II">
+                </div>
+
+                <div class="ADD_Q_D_Q_III">
+                    <input type="text" placeholder="Wronge Answer" class="ADD_Q_D_QI_III">
+                </div>
+
+                <div class="ADD_Q_D_Q_IV">
+                    <input type="text" placeholder="Wronge Answer" class="ADD_Q_D_QI_IV">
+                </div>
+
+                
+
+
+                <div class="ADMIN_MCD_UB_B">
+                    <p class="ADMIN_P_B">Previous</p>
+                    <p class="ADMIN_N_B">Next</p>
+                    <p class="ADMIN_S_B">Submit</p>
+                </div>
+                <div class="ADMIN_MCD_UB_AQ">
+                    <p class="ADMIN_AQ ADMIN_AQ1">1</p>
+                </div>
+
+
+                <!--TIME SET-->
+                <div class="SET_TM_CD">
+                    <input type="number" placeholder="H" class="SET_TM_CD_I HOUR_I">:
+                    <input type="number" placeholder="M" class="SET_TM_CD_I MINUTE_I">:
+                    <input type="number" placeholder="S" class="SET_TM_CD_I SECOND_I">
+                </div>
+                
+            </div>
+
+            <div class="VIEW_Q_D">
+                <div class="TQFS_DT">
+                Qeustions for section 6
+                </div>
+                <div class="TQFS_DB">
+    
+                    
+                    <div class="TQFS_UB_T">
+                        
+                        <div class="MCD_UB_T_T"> Q1: Which of the following is NOT a component of a computer system?</div>
+                        <div class="MCD_UB_T_B">
+    
+                            
+                            <div class="OPT"><p class="I_M_Select"></p> <p class="I_A"> Central Processing Unit (CPU)</p></div>
+                            <div class="OPT"><p class="I_M_SelectRed"></p> <p class="II_A">Input Devices</p></div>
+                            <div class="OPT"><p class="I_M"></p> <p class="III_A">Hard Disk Drive (HDD)</p></div>
+                            <div class="OPT"><p class="I_M"></p> <p class="IV_A">Fuel Tank</p></div>
+                            
+                            
+                            ******
+    
+                            <div class="OPT"><p class="I_M_SelectRed"></p> <p class="True_A">True</p></div>
+                            <div class="OPT"><p class="I_M"></p> <p class="False_A">False</p></div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+
+                    <p class="VIEW_Q_D_BACK">Back</p>
+                    
+                </div>
+            </div>
+
+            <div class="VIEW_R_D">
+                <div class="VIEW_R_DT">
+                    <P class="DT_SN">S/N</P>
+                    <P class="DT_SF">Students fullName</P>
+                    <P class="DT_RN">Registration numbers</P>
+                    <P class="DT_S">Scores</P>
+                    <P class="DT_VSW">View student work</P>
+                </div>
+                <div class="VIEW_R_DB">
+
+                    <!--
+                    <P class="DB_SN">1</P>
+                    <P class="DB_SF">yahaya abdllahi ibrahim</P>
+                    <P class="DB_RN">cst22ndev2550</P>
+                    <P class="DB_S">100</P>
+                    <p class="DB_VSW"> view </p>
+                    -->
+
+                    <p class="ADMIN_VR_BACK">Back</p>
+
+                </div>
+                
+            </div>
+
+            <div class="CHANGE_P_D">
+
+                
+
+                <div class="CHANGE_P_DC">
+                    <p class="CHANGE_P_DB_BACK">x</p>
+                    <p class="CALA_page_N "> Update Password for Ehanced Security</p>
+
+                    <div class="CALA_page_I">
+                        <p class="IT">Old Password</p>
+                        <div class="IP OP"></div>
+                    </div>
+
+                    <div class="CALA_page_I">
+                        <p class="IT">New Password</p>
+                        <input type="number" class="IP NP">
+                    </div>
+
+                    <div class="CHANGE_P_SubmitB">Submit</div>
+
+                </div>
+                
+                
+            </div>
+            
+
+        </div>
+
+
+        <!--FIRST PAGE <<<-->
+        <div class="MCD_FP">
+            <p class="MCD_FP_LG">
+                <img src="" class="MCD_FP_LG_Img">
+            </p>
+            <p class="PWAM">Please wait a moment.</p>
+        </div>
+
+        <!--RULES PAGE <<<-->
+        <div class="MCD_R">
+
+            <div class="MCD_RC">
+            <p class="MCD_RH_I">Before You Begin</p>
+            <p class="MCD_RH_II">Ensure a smooth and valid CA text experience, follow these essential rules bellow</p>
+
+                <div class="MCD_RB">
+                    <span class="MCD_RB_BOLD">1. Keep Test App Visible: </span>
+                    Do not minimize the app during the test.
+                </div>
+
+                <div class="MCD_RB">
+                    <span class="MCD_RB_BOLD">2. Enable Webcam: </span>
+                    Keep your webcam on throughout the test.
+                </div>
+
+                <div class="MCD_RB">
+                    <span class="MCD_RB_BOLD">3. Attempt All Questions: </span>
+                    Answer every question to the best of your ability.
+                </div>
+
+                <div class="MCD_RB">
+                    <span class="MCD_RB_BOLD">4. Stay in the App: </span>
+                    Remain in the test app until your name appears on the results list.
+                </div>
+
+
+                <div class="MCD_R_BTN">Next</div>
+            </div>
+
+        </div>
+
+        <!--CREATE/LOGIN PAGE <<<-->
+        <div class="CALA_page_B">
+            
+            <div class="CALA_page">
+
+                <!---->
+                <div class="CALA_page_LGD">
+                    <p class="CALA_page_LG">
+                        <img src="" class="CALA_page_LG_I">
+                    </p>
+                    <p class="CALA_page_N"> Welcome! Please enter your credentials below to access your CA tests</p>
+                </div>
+
+                <div class="CALA_page_I">
+                    <p class="IT">Fullname</p>
+                    <input type="text" class="IP IN">
+                </div>
+
+                <div class="CALA_page_I">
+                    <p class="IT">Reg Number</p>
+                    <input type="text" class="IP IR">
+                    
+                </div>
+
+                <div class="CALA_page_I">
+                    <p class="ExamCode_p">Exam code:</p>
+                    <input type="number" class="IPC IEC">
+                </div>
+
+                <div class="CALA_page_Button">Login</div>
+                
+
+                <!--
+                <div class="CALA_page_confirm">
+                    <span class="confirm_N">yahaya abdullahi</span> ensure that your registration number is correct.
+                    
+                </div>
+                <p class="regNumber">cst22ndev2550</p>
+
+                <div class="BC_BD">
+                    <p class="B_B">Back</p>
+                    <p class="C_B">Confirm</p>
+                </div>
+
+                <p class="Start_B">Start</p>
+                -->
+
+                <!--
+                <div class="C_submit"><span class="confirm_N">yahaya abdullahi</span> make sure that you want to submit.</div>
+                <div class="BC_BD">
+                    <p class="B_B">Back</p>
+                    <p class="C_B">Confirm</p>
+                </div>
+                -->
+
+            </div>
+        </div>
+        
+
+
+        <!--ExamNo_DC PAGE <<<-->
+        <div class="ExamNo_DC">
+            
+            <div class="ExamNo_C">
+
+                <!---->
+                <div class="CALA_page_LGD">
+                    <p class="CALA_page_N">Enter the exam code for a<br> specific section</p>
+                </div>
+
+
+                <div class="CALA_page_I">
+                    <p class="ExamCode_p">Exam code:</p>
+                    <input type="number" class="IPC ECODE">
+                </div>
+
+                <div class="view_Button">view</div>
+                
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="JavaScript/Main.js"></script>
+<script src="JavaScript/Fix_img.js"></script>
+<script src="JavaScript/User.js"></script>
+<script src="JavaScript/Admin.js"></script>
+<script type="module" src="JavaScript/Database.js"></script>
+<script src="JavaScript/VideoCapture.js"></script>
+</html>
